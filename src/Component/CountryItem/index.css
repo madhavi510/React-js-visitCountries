@@ -1,0 +1,35 @@
+.counties-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.country-item-name {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.removeBtn {
+  height: 30px;
+  width: 60px;
+  border: 1px solid #f1f5f9;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.country-image {
+  height: 120px;
+  width: 170px;
+}
+
+.country-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
